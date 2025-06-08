@@ -13,7 +13,8 @@ jobs:
         run: echo "${{ secrets.SECRECT_FRONTEND_ENV }}" > frontend/.env
 
       - name: Create backend .env file
-        run: echo "${{ secrets.SECRECT_BACKEND_ENV }}" > backend/.env
+        run: |
+         printf "%s" "${{ secrets.SECRET_BACKEND_ENV }}" > backend/.env
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
