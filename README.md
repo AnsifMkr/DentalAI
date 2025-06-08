@@ -38,7 +38,7 @@ A comprehensive dental practice management system with AI-powered chat assistanc
 ## 📁 Project Structure
 
 ```
-dental-ai/
+DentalAI/
 ├── backend/
 │   ├── routers/
 │   │   ├── auth.py          # Authentication endpoints
@@ -77,7 +77,7 @@ dental-ai/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd dental-ai/backend
+   cd DentalAI/backend
    ```
 
 2. **Install dependencies**
